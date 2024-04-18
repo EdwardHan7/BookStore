@@ -1,0 +1,87 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+.book-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.book-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.book-item:hover {
+    background-color: #f4f4f4; 
+}
+
+.book-item button {
+    margin-left: 10px;
+}
+.book-details {
+    font-size: 16px;
+}
+
+.book-actions button {
+    margin-left: 10px;
+}
+
+.book-form input, .book-form textarea {
+    color: #000; 
+    background-color: #fff; 
+}
+
+.book-form {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.book-form input, .book-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.book-form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .book-form input, .book-form textarea, .book-form button {
+        width: 100%;
+    }
+}
